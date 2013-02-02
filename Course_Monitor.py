@@ -77,5 +77,5 @@ if __name__ == "__main__":
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.ehlo()
     s.starttls()
-    s.login(cm['From'], "Mb680520") 
+    s.login(cm['From'], "XXXXXXXXXX") "Password omitted."
     check_course(CCN, p)

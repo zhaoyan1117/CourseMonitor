@@ -12,7 +12,7 @@ msg['From'], msg['To'] = "zhaoyan1117@gmail.com", "6262576432@vtext.com"
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.ehlo()
 s.starttls()
-s.login(msg['From'], "Mb680520") 
+s.login(msg['From'], "XXXXXXXXX") "Password omited."
 
 def send_message(CCN):
     cm = MIMEText(CCN + " is available now")
